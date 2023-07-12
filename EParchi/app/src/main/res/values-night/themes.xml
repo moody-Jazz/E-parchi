@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.EParchi" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">#323351</item>
+
+    </style>
+
+    <style name="MybottomNavTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="background">@color/bgColor</item>
+        <item name="itemIconTint">@null</item>
+    </style>
+
+
+    <style name="MyToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+
+    <style name="MyCardView" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="cardBackgroundColor">#787878</item>
+    </style>
+
+    <!-- res/values/styles.xml -->
+    <style name="MyBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="iconSize">40dp</item>
+    </style>
+
+
+</resources>
